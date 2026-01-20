@@ -288,3 +288,25 @@ hr{
 .footer-description{
   padding: 32px;
 }
+
+@media screen and (max-width:576px) {
+  .navbar, .about-box, .feature-box, .host-card{
+    flex-direction: column;
+  }
+  .about-box{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .choose-box{
+    grid-template-areas: 
+    "audio"
+    "mobile"
+    "global"
+    "exclusive"
+    "resource";
+  }
+  .choose-container, .feature{
+  width: 80%;
+  padding: 120px 20px;
+}
+}
