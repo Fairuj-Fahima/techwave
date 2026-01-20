@@ -99,12 +99,12 @@
   text-align: center;
   margin: 0 auto;
 }
-.about-title, .choose-title, .f-title{
+.about-title, .choose-title, .f-title, .host-title{
   font-size: 3rem;
   font-weight: 700;
   color: #FFFFFF;
 }
-.about-description, .card-description{
+.about-description, .card-description, .host-description, .footer-description{
   font-size: 1rem;
   font-weight: 400;
   line-height: 20px;
@@ -206,7 +206,7 @@ hr{
   color: #FFFFFF;
   padding: 24px 0 12px;
 }
-.f-title{
+.f-title, .host-title{
   text-align: center;
   padding-bottom: 40px;
 }
@@ -219,4 +219,72 @@ hr{
 }
 .f-descript p{
   color: #00FF88;
+}
+.host{
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.host-title{
+  margin: 0 auto;
+}
+.host-card{
+  justify-content: space-between;
+  gap: 24px;
+}
+.host-card{
+  max-width: 1200px;
+  padding: 49px;
+  border-radius: 40px;
+  background: #533C72;
+  /* border: 1px solid red; */
+  /* margin-bottom: 20px; */
+}
+.host-content{
+  margin: 48px;
+}
+.host-card-title{
+  font-size: 32px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+.host-description{
+  padding: 16px 0;
+}
+.icon{
+  gap: 8px;
+}
+.icon img{
+  max-width: 40px;
+  border: 1px solid #FFFFFF;
+  border-radius: 100px;
+  padding: 3px;
+}
+.footer{
+  background-image: url(../assets/footer-bg.png);
+  margin: 0 auto;
+  text-align: center;
+}
+.footer-container{
+  max-width: 1360px;
+  padding: 120px 0 120px;
+  margin: 0 auto;
+}
+.footer-image{
+  max-width: 544px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 32px;
+}
+.footer-card{
+  gap: 8px;
+  text-align: center;
+  align-items: center;
+}
+.footer-description{
+  padding: 32px;
 }
